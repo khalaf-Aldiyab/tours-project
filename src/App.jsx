@@ -1,14 +1,12 @@
+import React from "react";
+import Tours from "./pages/Tours";
 
-import './App.css'
-import ListProducts from './ListProducts'
-
-function App() {
-
+const App = () => {
   return (
-    <>
-    <ListProducts/>
-    </>
-  )
-}
+    <div className="bg-gray-100 min-h-screen">
+      <Tours />
+    </div>
+  );
+};
 
-export default App
+export default App;
