@@ -23,7 +23,7 @@ const TourCard = ({ id, name, info, image, price, removeTour }) => {
           </button>
         </p>
         <button
-          className="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition-colors"
+          className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition-colors"
           onClick={() => removeTour(id)}
         >
           Not Interested
